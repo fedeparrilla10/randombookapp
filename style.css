@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?family=Gentium+Book+Basic&family=Gentium+Book+Plus:wght@700&family=Merriweather:wght@900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif+Armenian&display=swap");
+
+body {
+  background: rgb(255, 219, 192);
+  background: radial-gradient(
+    circle,
+    rgba(255, 219, 192, 1) 7%,
+    rgba(155, 206, 245, 1) 100%
+  );
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 90vh;
+  /* overflow: hidden; */
+  text-align: center;
+}
+
+.container {
+  background-color: #cce7fc;
+  width: 25%;
+  border: 5px solid #a9daff;
+  border-radius: 15px;
+  padding: 25px 30px 25px 30px;
+}
+
+footer {
+  padding-top: 20px;
+}
+
+.title,
+.booktitle {
+  font-family: "Merriweather", serif;
+}
+
+.subtitle {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+}
+
+.paragraph {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+}
+
+#randomizer {
+  display: inline-block;
+  outline: none;
+  cursor: pointer;
+  font-weight: 600;
+  border-radius: 3px;
+  margin-top: 25px;
+  padding: 12px 24px;
+  border: 0;
+  color: #000021;
+  background: #79c5ff;
+  line-height: 1.15;
+  font-size: 16px;
+}
+
+#randomizer:hover {
+  transition: all 0.1s ease;
+  box-shadow: 0 0 0 0 #fff, 0 0 0 2px #79c5ff;
+}
+
+.footer {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+}
+
+.feliz-lectura {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* For reco.html */
+
+.reco_container {
+  background-color: #cce7fc;
+  width: 40%;
+  border: 5px solid #a9daff;
+  border-radius: 15px;
+  padding: 25px 30px 25px 30px;
+}
+
+.libro {
+  height: 250px;
+  max-height: 100%;
+  border: 2px solid black;
+}
+
+.libro:hover {
+  cursor: pointer;
+}
+
+.greads {
+  margin-top: 8px;
+  font-size: 12px;
+}
+
+.genre,
+.pages {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: auto;
+  font-size: 14px;
+}
+
+.description {
+  font-family: "Noto Serif Armenian", serif;
+  font-size: 16px;
+  line-height: 25px;
+}
+
+#index-back {
+  display: block;
+  margin: 15px auto;
+  outline: none;
+  cursor: pointer;
+  font-weight: 600;
+  border-radius: 3px;
+  padding: 10px 10px;
+  border: 0;
+  color: #000021;
+  background: #79c5ff;
+  line-height: 1;
+  font-size: 16px;
+}
+
+#index-back:hover {
+  transition: all 0.1s ease;
+  box-shadow: 0 0 0 0 #fff, 0 0 0 2px #79c5ff;
+}
+
+a {
+  text-decoration: none;
+}
