@@ -3,7 +3,7 @@ export const books = {
     name: "El Imperio Final",
     img: "./img/ImperioFinal.jpg",
     author: "Brandon Sanderson",
-    genre: "Fantasia",
+    genre: "Fantasía",
     pages: "690",
     details: `Durante mil años han caído las cenizas y nada florece. Durante mil años los skaa han sido esclavizados y viven sumidos en un miedo inevitable. Durante mil años el Lord Legislador reina con un poder absoluto gracias al terror, a sus poderes e inmortalidad.
         Le ayudan «obligadores» e «inquisidores», junto a la poderosa magia de la «alomancia». Pero los nobles, con frecuencia, han tenido trato sexual con jóvenes skaa y, aunque la ley lo prohíbe, algunos de sus bastardos han sobrevivido y heredado los poderes alománticos: son los «nacidos de la bruma» (mistborns).
@@ -14,7 +14,7 @@ export const books = {
     name: "Neverwhere",
     img: "./img/neverwhere.jpg",
     author: "Neil Gaiman",
-    genre: "Fantasy",
+    genre: "Fantasía",
     pages: "370",
     details: `Under the streets of London there's a world most people could never even dream of. A city of monsters and saints, murderers and angels, knights in armour and pale girls in black velvet.
         "Neverwhere" is the London of the people who have fallen between the cracks.
