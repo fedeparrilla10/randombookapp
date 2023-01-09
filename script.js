@@ -1,6 +1,6 @@
 import { books } from "./books.js";
 
-function randomPage() {
+(function randomPage() {
   const keys = Object.keys(books);
   const randomBook = books[keys[(keys.length * Math.random()) << 0]];
   const img = document.querySelector(".libro");
@@ -18,9 +18,9 @@ function randomPage() {
     const { textContent } = title;
     location.href = books[textContent].href;
   });
-}
 
-const button = document.querySelector("#randomizer");
-button.addEventListener("click", randomPage);
+  const button = document.querySelector("#randomizer");
+  button.addEventListener("click", randomPage);
 
-randomPage();
+  return;
+})();
